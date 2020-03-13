@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let c = "<table border='1' width='30%' cellspacing='0' cellpadding='5'>";
+    for (a=0; a<10 ; a++ ) {
+        c += '<tr>';
+        for (b = 0; b < 10; b++) {
+            c += '<td>' + a + 'x' + b + '=' + (a * b) + '</td>'
+        }
+    c+='</tr>';}
+    document.write(c);
+</script>
+</body>
+</html>
